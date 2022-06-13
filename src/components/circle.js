@@ -3,8 +3,10 @@ const Shape = require("Shape");
 
 // declare class
 class Circle extends Shape {
-    calculateArea = function(side) {
-        return (Math.PI * (side * side));
+    constructor() {
+        let calculateArea = function() {
+            return;
+        }
     }
 }
 

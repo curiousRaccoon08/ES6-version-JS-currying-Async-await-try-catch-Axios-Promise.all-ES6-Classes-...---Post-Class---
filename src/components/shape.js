@@ -2,10 +2,10 @@
 class Shape {
     constructor() {
         let color = "red";
-        drawShape = function() {
+        let drawShape = function() {
             return;
         }
-        calculateArea = function() {
+        let calculateArea = function() {
             return;
         }
     }
