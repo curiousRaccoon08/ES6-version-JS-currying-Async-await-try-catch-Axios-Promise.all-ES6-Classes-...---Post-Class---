@@ -1,8 +1,8 @@
 // import using require
-const shape = require("Shape");
+const Shape = require("Shape");
 
 // declare class
-class Circle extends shape {
+class Circle extends Shape {
     calculateArea = function(side) {
         return (Math.PI * (side * side));
     }
@@ -10,4 +10,4 @@ class Circle extends shape {
 
 
 // export class using module.exports
-module.exports(Circle);
+module.exports = Circle;
